@@ -3,8 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: start;
     height: 100vh;
     color: #fff;
+    background-color: #F06000;
     &__title {
         font-size: 46px;
         margin-bottom: 25px;
@@ -42,5 +44,9 @@
         border: 2px #fff solid;
         border-radius: 10px;
         margin-top: 20px;
+    }
+    &__link-login {
+        margin-top: 15px;
+        font-size: 14px;
     }
 }

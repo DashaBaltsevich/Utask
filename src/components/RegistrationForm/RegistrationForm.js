@@ -1,4 +1,5 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { NavLink } from 'react-router-dom';
 import * as yup from 'yup';
 import './RegistrationForm.scss';
 
@@ -100,6 +101,9 @@ export const RegistrationForm = () => {
                 <button type="submit" className="f-reg__btn-submit">
                   Зарегестрироваться
                 </button>
+
+                <NavLink to="/login" className="f-reg__link-login">Войти</NavLink>
+                <NavLink to="/userInformation" className="f-reg__link-login">Анкета</NavLink>
               </Form>
             )}
           </Formik>

@@ -78,8 +78,8 @@ export const LoginForm = () => {
             </button>
 
             <div className="f-login__row-links">
-              <NavLink to="/registration" className="f-login__btn-registration">Зарегестрироваться</NavLink>
-              <NavLink to="/password" className="f-login__btn-forgot-password">Забыли пароль?</NavLink>
+              <NavLink to="/registration" className="f-login__link-registration">Зарегестрироваться</NavLink>
+              <NavLink to="/password" className="f-login__link-forgot-password">Забыли пароль?</NavLink>
             </div>
           </Form>
         )}
